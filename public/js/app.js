@@ -5274,7 +5274,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
+__webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js"); // require('./components/header');
 
 /***/ }),
 
@@ -5344,10 +5344,13 @@ function Example() {
           className: "card",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-header",
-            children: "Example Component"
+            children: "React x Laravel"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-body",
-            children: "I'm an example component!"
+            children: "\u5FA9\u7FD2\u3068\u52C9\u5F37\u3092\u517C\u306D\u3066Laravel x React"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            className: "contents",
+            children: "\u305D\u306E\u6642\u3001\u96FB\u6D41\u304C\u8D70\u3063\u305F\u3002\u52FF\u8AD6\u3001\u96FB\u6C17\u304C\u6D41\u308C\u308B\u3088\u3046\u306A\u5668\u5177\u306F\u306A\u304F\u3001\u305F\u3060\u306E\u6BD4\u55A9\u8868\u73FE\u3060\u3002\u6BD4\u55A9\u8868\u73FE\u3068\u8A00\u8449\u306B\u76EE\u3092\u9870\u3081\u308B\u304B\u305F\u3082\u3044\u308B\u3060\u308D\u3046\u304C\u3001\u308F\u304B\u3063\u3066\u4F7F\u308F\u305B\u3066\u3082\u3089\u3063\u305F\u3002"
           })]
         })
       })
