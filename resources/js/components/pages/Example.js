@@ -10,7 +10,7 @@ function Example() {
                     <div className="card">
                         <div className="card-header">React x Laravel</div>
 
-                        <div className="card-body">復習と勉強を兼ねてLaravel x React</div>
+                        <div className="card-body">復習と勉強を兼ねてLaravel x React x Pages</div>
                         <Button color="primary" variant="contained">Hello Laravel x React</Button>
                     </div>
                 </div>

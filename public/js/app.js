@@ -10195,7 +10195,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  */
 
 
-__webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js"); // require('./components/header');
+__webpack_require__(/*! ./components/pages/Example */ "./resources/js/components/pages/Example.js"); // require('./components/header');
 
 /***/ }),
 
@@ -10235,10 +10235,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/Example.js":
-/*!********************************************!*\
-  !*** ./resources/js/components/Example.js ***!
-  \********************************************/
+/***/ "./resources/js/components/pages/Example.js":
+/*!**************************************************!*\
+  !*** ./resources/js/components/pages/Example.js ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -10270,7 +10270,7 @@ function Example() {
             children: "React x Laravel"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-body",
-            children: "\u5FA9\u7FD2\u3068\u52C9\u5F37\u3092\u517C\u306D\u3066Laravel x React"
+            children: "\u5FA9\u7FD2\u3068\u52C9\u5F37\u3092\u517C\u306D\u3066Laravel x React x Pages"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
             color: "primary",
             variant: "contained",
