@@ -12,7 +12,7 @@ function Example() {
 
                         <div className="card-body">復習と勉強を兼ねてLaravel x React x Pages</div>
                         <Button color="primary" variant="contained">Hello Laravel x React</Button>
-                        <Button color="primary" variant="contained">Home</Button>
+                        <Button color="primary" variant="contained" href={"/"}>Home</Button>
                     </div>
                 </div>
             </div>
