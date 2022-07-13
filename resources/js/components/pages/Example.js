@@ -12,6 +12,7 @@ function Example() {
 
                         <div className="card-body">復習と勉強を兼ねてLaravel x React x Pages</div>
                         <Button color="primary" variant="contained">Hello Laravel x React</Button>
+                        <Button color="primary" variant="contained">Home</Button>
                     </div>
                 </div>
             </div>
@@ -20,7 +21,3 @@ function Example() {
 }
 
 export default Example;
-
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
-}
