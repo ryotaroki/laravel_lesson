@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Button} from '@material-ui/core';
 
 function Example() {
     return (
@@ -10,6 +11,7 @@ function Example() {
                         <div className="card-header">React x Laravel</div>
 
                         <div className="card-body">復習と勉強を兼ねてLaravel x React</div>
+                        <Button color="primary" variant="contained">Hello Laravel x React</Button>
                     </div>
                 </div>
             </div>
