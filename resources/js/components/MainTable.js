@@ -6,7 +6,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import purple from '@material-ui/core/colors/purple';
+import purple, { lightBlue } from '@material-ui/core/colors';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 
 
@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => createStyles({
         minWidth: 650,
       },
     tableHead: {
-        backgroundColor: purple['A100'],
+        backgroundColor: lightBlue[50],
     },
 }));
 
