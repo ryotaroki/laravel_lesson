@@ -15,7 +15,8 @@ class PostController extends Controller
         return response()->json($posts, 200);
     }
 
-    public function create(Request $request) {
+    public function create(Request $request)
+    {
         $post = new Post;
         $post->name = $request->name;
         $post->content = $request->content;
