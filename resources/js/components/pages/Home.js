@@ -1,9 +1,10 @@
 import React, { useState, useEffect }　from 'react';
-import { Button, Card } from '@material-ui/core';
+import { Button, Card, DialogTitle } from '@material-ui/core';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import MainTable from '../MainTable';
 import axios from 'axios';
 import PostFrom from '../PostFrom';
+import Header from './Header';
 
 //スタイルの定義
 const useStyles = makeStyles((theme) => createStyles({
@@ -92,8 +93,9 @@ function Home() {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-md-10">
+                    <Header title='React X Laravel'
+                            introduction='Laravelをバック、Reactをフロントで構築したSPAです'/>
                     <div className="card">
-                        <h1>タスク管理</h1>
                         <Card className={classes.card}>
                             <PostFrom data={formData} btnFunc={createPost} inputChange={inputChange} />
                         </Card>
